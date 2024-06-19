@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header Sectiion Start */
+header{
+    width:100%;
+    height: 50px;
+    background:#022D7C;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 100px;
+    align-items: center;
+}
+/* Header Sectiion End */
+/* Banner Section Start*/
+.banner{
+    height:500px;
+    width:100%;
+    display:flex;
+    color:#fff;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content:space-between;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(230, 219, 219, 0.1)), url(../img/industry.jpg);
+    background-size:cover;
+}
+.banner h1{
+    font-weight:normal;
+    font-size:55px;
+}
+.banner h1 span{
+    display: block;
+    font-size: 77px;
+    font-weight:600;
+}
+.banner aside{
+    padding: 20px;
+    border-radius:5px;
+    text-align: center;
+    background: #022D7C;
+}
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+    width: 100%;
+    margin:7px;
+    height:50px;
+}
+/* Banner Section End*/
+/* Our Feature Section Start */
+.feature{
+    height:auto;
+    width: 100%;
+    color:#082C63;
+    padding: 60px 100px;
+    display:flex ;
+    justify-content: space-between;
+    
+}
+.feature div{
+    width:30%;
+    height: 400px;
+}
+.feature h2{
+    font-size:40px;
+    margin-bottom: 5px;
+}
+.feature img{
+    height: 250px;
+    width:400px;
+}
+/* Our Feature Section End */
+/* About Us Section Start */
+.about{
+    height:auto;
+    width: 100%;
+    padding: 35px 100px;
+    background:#022D7C;
+    text-align:center;
+    
+}
+.about h2{
+    color: #fff;
+    font-weight: 500;
+    font-size:33px;
+    margin-bottom:7px;
+}
+.about p{
+    font-weight:normal;
+    font-size:18px;
+}
+.about button{
+    height:50px;
+    width:350px;
+    background: #022D7C;
+    color: #fff;
+    border:1px solid #fff;
+    margin-top:30px;
+    
+}
+
+/* About Us Section End */
+
+/* Servise Section Start */
+
+.table{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+table tr td img{
+    width:650px;
+    height:400px;  
+}
+/* Servise Section End */
+
+/* Footer Section Start */
+footer{
+    width:100%;
+    height:auto;
+    text-align: center;
+    padding:25px 100px;
+    color:#fff;
+    background: #022D7C;
+}
+/* Footer Section End */
+/* Media Query Section Start */
+ @media screen and (max-width:992px){
+    header{
+        padding:10px;
+    }
+
+    header h2{
+        font-size:20px;
+    }
+
+    .banner{
+        padding:10px;
+    }
+
+    .feature{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .feature div{
+        height: auto;
+        width:100%;
+
+    }
+    .feature img{
+        height:300px;
+        width: 500px;
+    }
+ }
+/* Media Query Section End */
